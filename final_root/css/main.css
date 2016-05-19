@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300);
+@import url(https://fonts.googleapis.com/css?family=Montserrat|Philosopher|Antic+Slab|Nobile|Yanone+Kaffeesatz);
+
+/*These rules create the basic layout*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: #000;
+    background-size: cover;
+}
+
+body {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url("../images1/IMG-9336-9337-9338-HDR-Russian-Gulch-Bridge-Hwy-1-Mendocino-CA.jpg");
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+header {
+    height: 400px;
+    background: url("../images1/1872_Mendocino%20crazy%20colors.jpg");
+    background-size: cover;
+}
+
+footer {
+    height: 50px;
+    background: #000;
+}
+
+nav {
+    height: 75px;
+    background: #fff;
+    border-top: 10px solid #000;
+    border-bottom: 10px solid #000;
+    font-family: 'Antic Slab', serif;
+}
+
+ul {
+    list-style-type: none;
+    padding-top: 28px;
+}
+
+li {
+    display: inline;
+    border-right: 1px solid #666;
+}
+
+a {
+    text-decoration: none;
+    padding: 12px;
+    color: #666;
+    font-size: 18px;
+    text-transform: uppercase
+}
+
+a:hover {
+    color: #5f9ea0;
+}
+
+img {
+    margin-top: 50px;
+    border: 1px solid #000;
+}
+
+p {
+    margin: 0;
+    font-size: 28px;
+    color: #fff;
+    line-height: 45px;
+    padding: 50px;
+}
+
+.dropcap { 
+    color: #fff; 
+    font-size: 40px; 
+    line-height: 40px;  
+    padding-right: 0px; 
+}
+
+h1{
+    font-size: 140px;
+    color:#fff;
+    text-transform: uppercase;
+    line-height: 300px;
+    font-weight:900;
+    padding-top:50px;
+    font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+    font-size: 10px;
+    color:#5f9ea0;
+    padding: 20px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-family: 'Antic Slab', serif;
+
+}
